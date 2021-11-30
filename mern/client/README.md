@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+Do subscribe [TeachMeTechnically](https://youtube.com/TeachMeTechnically?sub_confirmation=1) on youtube for video tutorials 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
