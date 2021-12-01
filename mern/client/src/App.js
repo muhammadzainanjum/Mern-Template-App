@@ -1,7 +1,7 @@
 import React from "react";
 
 // We use Route in order to define the different routes of our application
-import { Route } from "react-router-dom";
+import { Routes ,Route } from 'react-router-dom';
 
 // We import all the components we need in our app
 import Navbar from "./components/navbar";
@@ -13,13 +13,11 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      {/* <Route exact path="/">
-        <RecordList />
-      </Route>
-      <Route path="/edit/:id" component={Edit} />
-      <Route path="/create"> */}
-        <Create />
-      {/* </Route> */}
+      <Routes>
+      <Route path="/" element={ <RecordList />}/>
+      <Route path="/create" element={ <Create />}/>
+      <Route path="/edit/:id" element={ <Edit />}/>
+      </Routes>
     </div>
   );
 };
